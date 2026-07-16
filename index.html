@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#cecdca">
+  <meta name="description" content="Maciejewska Design — projekty wnętrz prywatnych, tworzone z myślą o codzienności, funkcji i ponadczasowej estetyce.">
+  <title>Maciejewska Design — projektowanie wnętrz</title>
+
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="hero-01.webp" fetchpriority="high">
+  <link rel="stylesheet" href="style.css?v=1.0.0">
+</head>
+<body>
+  <div class="splash" id="splash" aria-hidden="true">
+    <div class="splash__inner">
+      <img src="logo-charcoal.png" alt="" class="splash__logo">
+      <span class="splash__line"><i></i></span>
+    </div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span></span></div>
+
+  <header class="site-header" id="siteHeader">
+    <a href="#start" class="brand" aria-label="Maciejewska Design — strona główna">
+      <img src="logo-charcoal.png" alt="Maciejewska Design">
+    </a>
+
+    <nav class="desktop-nav" aria-label="Główna nawigacja">
+      <a href="#o-mnie">O mnie</a>
+      <a href="#oferta">Oferta</a>
+      <a href="#realizacje">Realizacje</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+
+    <a class="header-cta" href="#kontakt">Porozmawiajmy <span>↗</span></a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Otwórz menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Menu mobilne">
+      <a href="#o-mnie"><span>01</span>O mnie</a>
+      <a href="#oferta"><span>02</span>Oferta</a>
+      <a href="#realizacje"><span>03</span>Realizacje</a>
+      <a href="#kontakt"><span>04</span>Kontakt</a>
+    </nav>
+    <div class="mobile-menu__footer">
+      <a href="https://www.instagram.com/maciejewskadesign/" target="_blank" rel="noreferrer">Instagram ↗</a>
+      <a href="https://www.facebook.com/MaciejewskaDesign" target="_blank" rel="noreferrer">Facebook ↗</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" id="start" aria-label="Maciejewska Design">
+      <div class="hero__media" aria-hidden="true">
+        <div class="hero-frame is-active" style="background-image:url('hero-01.webp')"></div>
+        <div class="hero-frame" style="background-image:url('hero-02.webp')"></div>
+        <div class="hero-frame" style="background-image:url('hero-03.webp')"></div>
+        <div class="hero-frame" style="background-image:url('hero-04.webp')"></div>
+        <div class="hero-frame" style="background-image:url('hero-05.webp')"></div>
+      </div>
+      <div class="hero__veil"></div>
+
+      <div class="hero__content container">
+        <p class="eyebrow reveal">Pracownia projektowania wnętrz</p>
+        <h1 class="hero__title reveal">
+          Wnętrza, które<br>
+          <em>zostają.</em>
+        </h1>
+        <p class="hero__copy reveal">Indywidualne projekty prywatnych przestrzeni — od pierwszej koncepcji po realizację.</p>
+        <div class="hero__actions reveal">
+          <a href="#realizacje" class="button button--light">Zobacz realizacje <span>↓</span></a>
+          <a href="#kontakt" class="text-link text-link--light">Opowiedz o projekcie <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero__bottom">
+        <div class="hero__progress" aria-hidden="true"><i></i></div>
+        <span>Projekty prywatne • kompleksowa współpraca</span>
+      </div>
+    </section>
+
+    <section class="about section" id="o-mnie">
+      <div class="about__drawing" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="container about__grid">
+        <div class="about__portrait reveal-media">
+          <img src="katarzyna-maciejewska.webp" alt="Katarzyna Maciejewska — projektantka wnętrz" loading="lazy">
+          <div class="about__portrait-label">Katarzyna Maciejewska<br><small>Maciejewska Design</small></div>
+        </div>
+
+        <div class="about__content">
+          <p class="section-index reveal"><span>01</span> O mnie</p>
+          <h2 class="display-title reveal">Projekt zaczyna się od <em>uważnego spojrzenia.</em></h2>
+          <p class="about__lead reveal">Tworzę przestrzenie dopasowane do ludzi, ich rytmu dnia i sposobu życia — nie wyłącznie do chwilowych trendów.</p>
+
+          <div class="about__copy reveal">
+            <p>Każdy projekt rozpoczynam od rozmowy i poznania realnych potrzeb. Następnie łączę funkcję, proporcje, światło oraz materiały w spójną całość, która ma dobrze działać nie tylko na wizualizacji, lecz przede wszystkim każdego dnia.</p>
+            <p>Współpraca obejmuje przemyślany proces, konkretne decyzje i spokojne prowadzenie inwestora przez kolejne etapy tworzenia wnętrza.</p>
+          </div>
+
+          <a class="line-link reveal" href="#oferta">Poznaj sposób współpracy <span>↘</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-break" aria-label="Filozofia projektowania">
+      <div class="quote-break__bg" data-parallax="0.08"></div>
+      <div class="quote-break__shade"></div>
+      <div class="container quote-break__content">
+        <p class="section-index section-index--light reveal"><span>02</span> Filozofia</p>
+        <blockquote class="reveal">„Dobre wnętrze nie narzuca stylu. Porządkuje codzienność i zostawia miejsce na życie.”</blockquote>
+      </div>
+    </section>
+
+    <section class="offer section" id="oferta">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-index reveal"><span>03</span> Oferta</p>
+            <h2 class="display-title reveal">Zakres współpracy.</h2>
+          </div>
+          <p class="section-intro reveal">Wybierz formę dopasowaną do skali inwestycji. Każdy zakres może zostać omówiony i doprecyzowany podczas pierwszej rozmowy.</p>
+        </div>
+
+        <div class="offer__layout">
+          <div class="offer__list">
+            <article class="offer-item is-open reveal" data-visual="lines">
+              <button type="button" aria-expanded="true">
+                <span class="offer-item__number">01</span>
+                <span class="offer-item__title">Projekt kompleksowy</span>
+                <span class="offer-item__meta">od koncepcji do realizacji</span>
+                <span class="offer-item__icon">×</span>
+              </button>
+              <div class="offer-item__body">
+                <p>Pełne opracowanie wnętrza: układ funkcjonalny, koncepcja stylistyczna, wizualizacje, dokumentacja techniczna oraz zestawienia materiałów i wyposażenia.</p>
+                <ul><li>cały dom lub mieszkanie</li><li>spójna koncepcja</li><li>komplet materiałów wykonawczych</li></ul>
+              </div>
+            </article>
+
+            <article class="offer-item reveal" data-visual="materials">
+              <button type="button" aria-expanded="false">
+                <span class="offer-item__number">02</span>
+                <span class="offer-item__title">Projekt koncepcyjny</span>
+                <span class="offer-item__meta">kierunek i wizualizacje</span>
+                <span class="offer-item__icon">+</span>
+              </button>
+              <div class="offer-item__body">
+                <p>Rozwiązanie dla osób, które potrzebują jasno określonego kierunku, funkcji i estetyki wnętrza, a wdrożenie planują prowadzić samodzielnie.</p>
+                <ul><li>układ funkcjonalny</li><li>moodboard i materiały</li><li>wizualizacje kluczowych przestrzeni</li></ul>
+              </div>
+            </article>
+
+            <article class="offer-item reveal" data-visual="stone">
+              <button type="button" aria-expanded="false">
+                <span class="offer-item__number">03</span>
+                <span class="offer-item__title">Wybrane pomieszczenia</span>
+                <span class="offer-item__meta">precyzyjny, mniejszy zakres</span>
+                <span class="offer-item__icon">+</span>
+              </button>
+              <div class="offer-item__body">
+                <p>Projekt kuchni, łazienki, strefy dziennej, sypialni albo innej wybranej części wnętrza — z taką samą dbałością o funkcję i detal.</p>
+                <ul><li>jedno lub kilka pomieszczeń</li><li>projekt dopasowany do budżetu</li><li>konkretna dokumentacja</li></ul>
+              </div>
+            </article>
+
+            <article class="offer-item reveal" data-visual="silhouette">
+              <button type="button" aria-expanded="false">
+                <span class="offer-item__number">04</span>
+                <span class="offer-item__title">Konsultacja projektowa</span>
+                <span class="offer-item__meta">decyzje i kierunek działania</span>
+                <span class="offer-item__icon">+</span>
+              </button>
+              <div class="offer-item__body">
+                <p>Spotkanie poświęcone konkretnym pytaniom: układowi, kolorystyce, materiałom, wyposażeniu lub problemom pojawiającym się podczas realizacji.</p>
+                <ul><li>online lub stacjonarnie</li><li>konkretne rekomendacje</li><li>podsumowanie ustaleń</li></ul>
+              </div>
+            </article>
+
+            <article class="offer-item reveal" data-visual="lines">
+              <button type="button" aria-expanded="false">
+                <span class="offer-item__number">05</span>
+                <span class="offer-item__title">Nadzór autorski</span>
+                <span class="offer-item__meta">wsparcie podczas realizacji</span>
+                <span class="offer-item__icon">+</span>
+              </button>
+              <div class="offer-item__body">
+                <p>Kontrola zgodności realizacji z projektem, wsparcie w podejmowaniu bieżących decyzji i kontakt z wykonawcami na ustalonych etapach prac.</p>
+                <ul><li>spójność z projektem</li><li>rozwiązywanie zmian wykonawczych</li><li>kontrola kluczowych etapów</li></ul>
+              </div>
+            </article>
+          </div>
+
+          <aside class="offer__visual reveal-media" aria-hidden="true">
+            <img src="separator-lines.webp" alt="" data-offer-image>
+            <div class="offer__visual-caption"><span>Materiały</span><span>Światło</span><span>Proporcja</span></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="values section">
+      <div class="container values__grid">
+        <div class="values__visual reveal-media">
+          <img src="separator-materials.webp" alt="Zestawienie materiałów wykorzystywanych podczas projektowania" loading="lazy">
+          <span class="values__stamp">MD / proces</span>
+        </div>
+        <div class="values__content">
+          <p class="section-index reveal"><span>04</span> Podejście</p>
+          <h2 class="display-title reveal">Funkcja. Proporcja. <em>Charakter.</em></h2>
+          <div class="values__list">
+            <div class="value reveal"><span>01</span><h3>Indywidualnie</h3><p>Projekt odpowiada na realne potrzeby, przyzwyczajenia i możliwości inwestora.</p></div>
+            <div class="value reveal"><span>02</span><h3>Kompleksowo</h3><p>Każdy element jest częścią większej, uporządkowanej całości.</p></div>
+            <div class="value reveal"><span>03</span><h3>Realnie</h3><p>Rozwiązania są dopracowane estetycznie, technicznie i budżetowo.</p></div>
+            <div class="value reveal"><span>04</span><h3>Spokojnie</h3><p>Jasny proces i konkretne decyzje prowadzą od koncepcji do gotowego wnętrza.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="realizacje">
+      <div class="container">
+        <div class="section-head projects__head">
+          <div>
+            <p class="section-index reveal"><span>05</span> Realizacje</p>
+            <h2 class="display-title reveal">Wybrane wnętrza.</h2>
+          </div>
+          <p class="section-intro reveal">Każdy projekt ma inny rytm, skalę i charakter. Łączy je dbałość o funkcję, materiał oraz spójną atmosferę.</p>
+        </div>
+
+        <div class="project-grid">
+          <button class="project-card project-card--large reveal-media" data-full="project-salon-01.webp" aria-label="Otwórz realizację — strefa dzienna">
+            <img src="project-salon-01.webp" alt="Nowoczesna strefa dzienna" loading="lazy">
+            <span class="project-card__overlay"><small>01 / Strefa dzienna</small><strong>Dom prywatny</strong><i>↗</i></span>
+          </button>
+          <button class="project-card project-card--portrait reveal-media" data-full="project-kuchnia-01.webp" aria-label="Otwórz realizację — kuchnia">
+            <img src="project-kuchnia-01.webp" alt="Nowoczesna kuchnia" loading="lazy">
+            <span class="project-card__overlay"><small>02 / Kuchnia</small><strong>Minimalistyczna forma</strong><i>↗</i></span>
+          </button>
+          <button class="project-card project-card--portrait reveal-media" data-full="project-lazienka-01.webp" aria-label="Otwórz realizację — łazienka">
+            <img src="project-lazienka-01.webp" alt="Łazienka w ciemnych materiałach" loading="lazy">
+            <span class="project-card__overlay"><small>03 / Łazienka</small><strong>Materiał i światło</strong><i>↗</i></span>
+          </button>
+          <button class="project-card project-card--wide reveal-media" data-full="project-kuchnia-03.webp" aria-label="Otwórz realizację — kuchnia i jadalnia">
+            <img src="project-kuchnia-03.webp" alt="Kuchnia połączona z jadalnią" loading="lazy">
+            <span class="project-card__overlay"><small>04 / Kuchnia i jadalnia</small><strong>Otwarta przestrzeń</strong><i>↗</i></span>
+          </button>
+          <button class="project-card reveal-media" data-full="project-sypialnia-01.webp" aria-label="Otwórz realizację — sypialnia">
+            <img src="project-sypialnia-01.webp" alt="Jasna sypialnia" loading="lazy">
+            <span class="project-card__overlay"><small>05 / Sypialnia</small><strong>Miękkie wyciszenie</strong><i>↗</i></span>
+          </button>
+          <button class="project-card reveal-media" data-full="project-lazienka-03.webp" aria-label="Otwórz realizację — łazienka">
+            <img src="project-lazienka-03.webp" alt="Nowoczesna łazienka z wanną" loading="lazy">
+            <span class="project-card__overlay"><small>06 / Łazienka</small><strong>Spokojny detal</strong><i>↗</i></span>
+          </button>
+          <button class="project-card project-card--wide reveal-media" data-full="project-salon-03.webp" aria-label="Otwórz realizację — salon">
+            <img src="project-salon-03.webp" alt="Salon z dużymi przeszkleniami" loading="lazy">
+            <span class="project-card__overlay"><small>07 / Salon</small><strong>Światło i rytm</strong><i>↗</i></span>
+          </button>
+          <button class="project-card reveal-media" data-full="project-przedpokoj.webp" aria-label="Otwórz realizację — hol">
+            <img src="project-przedpokoj.webp" alt="Nowoczesny hol" loading="lazy">
+            <span class="project-card__overlay"><small>08 / Hol</small><strong>Pierwsze wrażenie</strong><i>↗</i></span>
+          </button>
+        </div>
+
+        <div class="projects__more reveal">
+          <span>Więcej aktualnych realizacji i etapów prac znajdziesz w mediach społecznościowych.</span>
+          <a href="https://www.instagram.com/maciejewskadesign/" target="_blank" rel="noreferrer" class="line-link">Zobacz Instagram <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="social-faq section">
+      <div class="container social-faq__grid">
+        <div class="social-showcase">
+          <p class="section-index reveal"><span>06</span> Z pracowni</p>
+          <h2 class="display-title reveal">Projekty, proces i <em>codzienność.</em></h2>
+          <p class="social-showcase__copy reveal">Zobacz najnowsze realizacje, materiały, wizyty na budowie i kulisy pracy nad wnętrzami.</p>
+
+          <div class="devices reveal-media" aria-label="Podgląd mediów społecznościowych Maciejewska Design">
+            <div class="browser-mockup">
+              <div class="browser-mockup__bar"><i></i><i></i><i></i><span>maciejewskadesign</span></div>
+              <div class="browser-mockup__profile">
+                <img src="logo-charcoal.png" alt="">
+                <div><strong>maciejewskadesign</strong><small>Projektowanie i aranżacja wnętrz</small></div>
+                <span>Obserwuj</span>
+              </div>
+              <div class="browser-mockup__grid">
+                <img src="project-salon-02.webp" alt=""><img src="project-kuchnia-04.webp" alt=""><img src="project-lazienka-02.webp" alt=""><img src="project-sypialnia-02.webp" alt=""><img src="project-salon-03.webp" alt=""><img src="project-kuchnia-02.webp" alt="">
+              </div>
+            </div>
+            <div class="phone-mockup">
+              <div class="phone-mockup__notch"></div>
+              <div class="phone-mockup__screen">
+                <img class="phone-mockup__hero" src="project-salon-01.webp" alt="">
+                <div class="phone-mockup__profile"><img src="logo-charcoal.png" alt=""><div><strong>Maciejewska Design</strong><small>Wnętrza prywatne</small></div></div>
+                <div class="phone-mockup__button">Obserwuj</div>
+                <div class="phone-mockup__tiles"><img src="project-kuchnia-01.webp" alt=""><img src="project-lazienka-03.webp" alt=""></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links reveal">
+            <a href="https://www.instagram.com/maciejewskadesign/" target="_blank" rel="noreferrer">Instagram <span>↗</span></a>
+            <a href="https://www.facebook.com/MaciejewskaDesign" target="_blank" rel="noreferrer">Facebook <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="faq">
+          <p class="section-index reveal"><span>07</span> FAQ</p>
+          <h2 class="display-title reveal">Najczęstsze pytania.</h2>
+          <div class="faq__list">
+            <article class="faq-item is-open reveal">
+              <button type="button" aria-expanded="true"><span>Czy można zamówić projekt jednego pomieszczenia?</span><i>×</i></button>
+              <div class="faq-item__answer"><p>Tak. Zakres może obejmować pojedynczą kuchnię, łazienkę, salon, sypialnię albo kilka wybranych przestrzeni.</p></div>
+            </article>
+            <article class="faq-item reveal">
+              <button type="button" aria-expanded="false"><span>Jak wygląda pierwsze spotkanie?</span><i>+</i></button>
+              <div class="faq-item__answer"><p>Rozmawiamy o potrzebach, stylu życia, zakresie inwestycji, terminie i oczekiwanym poziomie wsparcia. Na tej podstawie dobierany jest właściwy zakres współpracy.</p></div>
+            </article>
+            <article class="faq-item reveal">
+              <button type="button" aria-expanded="false"><span>Czy współpraca może odbywać się online?</span><i>+</i></button>
+              <div class="faq-item__answer"><p>Duża część procesu może być prowadzona zdalnie. Dokładny model współpracy zależy od lokalizacji i zakresu projektu.</p></div>
+            </article>
+            <article class="faq-item reveal">
+              <button type="button" aria-expanded="false"><span>Co zawiera projekt kompleksowy?</span><i>+</i></button>
+              <div class="faq-item__answer"><p>Układ funkcjonalny, koncepcję stylistyczną, wizualizacje, dokumentację techniczną oraz zestawienia materiałów, wyposażenia i elementów wykończeniowych.</p></div>
+            </article>
+            <article class="faq-item reveal">
+              <button type="button" aria-expanded="false"><span>Czy możliwe jest wsparcie podczas realizacji?</span><i>+</i></button>
+              <div class="faq-item__answer"><p>Tak. Nadzór autorski i wsparcie wykonawcze mogą zostać włączone do zakresu współpracy po wcześniejszym ustaleniu.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="kontakt">
+      <div class="contact__background" aria-hidden="true"></div>
+      <div class="container contact__grid">
+        <div class="contact__intro">
+          <p class="section-index section-index--light reveal"><span>08</span> Kontakt</p>
+          <h2 class="display-title display-title--light reveal">Opowiedz o przestrzeni, którą chcesz <em>stworzyć.</em></h2>
+          <p class="reveal">Krótki brief wystarczy, aby rozpocząć rozmowę i dobrać odpowiedni zakres współpracy.</p>
+          <div class="contact__social reveal">
+            <a href="https://www.instagram.com/maciejewskadesign/" target="_blank" rel="noreferrer">Instagram ↗</a>
+            <a href="https://www.facebook.com/MaciejewskaDesign" target="_blank" rel="noreferrer">Facebook ↗</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <label><span>Imię i nazwisko</span><input name="name" type="text" placeholder="Jak możemy się do Ciebie zwracać?" required></label>
+          <label><span>Telefon lub e-mail</span><input name="contact" type="text" placeholder="Dane do kontaktu" required></label>
+          <label><span>Rodzaj inwestycji</span><select name="type" required><option value="">Wybierz</option><option>Dom</option><option>Mieszkanie</option><option>Wybrane pomieszczenia</option><option>Konsultacja</option><option>Inny zakres</option></select></label>
+          <div class="contact-form__row">
+            <label><span>Lokalizacja</span><input name="location" type="text" placeholder="Miasto / okolica"></label>
+            <label><span>Metraż</span><input name="area" type="text" placeholder="np. 120 m²"></label>
+          </div>
+          <label><span>Kilka słów o projekcie</span><textarea name="message" rows="4" placeholder="Co ma się zmienić i na czym najbardziej Ci zależy?"></textarea></label>
+          <label class="contact-form__consent"><input type="checkbox" required><span>Wyrażam zgodę na kontakt w sprawie przesłanego zapytania.</span></label>
+          <button class="button button--dark" type="submit">Przygotuj wiadomość <span>↗</span></button>
+          <p class="contact-form__status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__top">
+      <img src="logo-charcoal.png" alt="Maciejewska Design">
+      <nav aria-label="Nawigacja w stopce"><a href="#o-mnie">O mnie</a><a href="#oferta">Oferta</a><a href="#realizacje">Realizacje</a><a href="#kontakt">Kontakt</a></nav>
+      <a class="footer__top-link" href="#start" aria-label="Wróć na początek">↑</a>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Maciejewska Design</span>
+      <span>Projektowanie i aranżacja wnętrz</span>
+      <span>Projekt strony: 21project</span>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Podgląd realizacji">
+    <button class="lightbox__close" type="button" aria-label="Zamknij">×</button>
+    <img src="" alt="Powiększone zdjęcie realizacji">
+  </div>
+
+  <script src="script.js?v=1.0.0" defer></script>
+</body>
+</html>
