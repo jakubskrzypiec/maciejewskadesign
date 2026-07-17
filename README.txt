@@ -1,11 +1,19 @@
-MACIEJEWSKA DESIGN — WERSJA BEZ FOLDERU ASSETS
+Maciejewska Design — wersja v2 bez folderu assets
 
-Wszystkie pliki strony i wszystkie obrazy znajdują się w jednym folderze.
-
-Do repozytorium GitHub wgraj całą zawartość tego folderu bez zmieniania nazw:
+Pliki do GitHub Pages:
 - index.html
 - style.css
 - script.js
-- wszystkie pliki PNG i WEBP
+- wszystkie obrazy leżą obok tych plików w głównym folderze
 
-Następnie włącz GitHub Pages dla głównej gałęzi i katalogu głównego.
+Najważniejsze zmiany względem v1:
+- hero uproszczone do samych 2 kafelków na dole, bez nagłówka i liczników
+- nowy układ sekcji 'O mnie'
+- nowy, niższy przerywnik
+- oferta w układzie 50/50 z obrazem po lewej i akordeonem po prawej
+- kompletny rework środkowych sekcji
+- realizacje na pełną szerokość z subtelnym opisem (miejscowość + metraż)
+- FAQ na tle zdjęcia
+- uproszczony dół strony
+- poprawione logo jako czytelniejsze PNG
+
