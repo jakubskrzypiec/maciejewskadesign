@@ -30,15 +30,6 @@ button,input,textarea{font:inherit}
 button{background:none;border:none;padding:0;color:inherit;cursor:pointer}
 main{overflow:hidden}
 
-.intro{
-  position:fixed; inset:0; z-index:100;
-  display:grid; place-items:center;
-  background:var(--bg);
-  transition:opacity .75s ease, visibility .75s ease;
-}
-.intro.is-hidden{opacity:0; visibility:hidden}
-.intro__logo{width:min(360px,48vw)}
-
 .site-header{
   position:fixed; inset:0 0 auto 0; z-index:60;
   display:grid; grid-template-columns:170px 1fr auto; gap:24px; align-items:center;
@@ -315,4 +306,80 @@ p{margin:0; color:var(--muted); line-height:1.85}
   .project-card{width:78vw; min-width:78vw}
   .faq-item button{font-size:31px}
   .contact__form{grid-template-columns:1fr}
+}
+
+
+/* ===== HERO FIX — only this section changed ===== */
+.brand--text{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:2px;
+  width:max-content;
+  color:var(--text);
+  background:transparent;
+}
+.brand__name{
+  font-size:11px;
+  line-height:1;
+  letter-spacing:.24em;
+  font-weight:600;
+}
+.brand__sub{
+  font-size:8px;
+  line-height:1;
+  letter-spacing:.42em;
+  color:currentColor;
+  opacity:.7;
+}
+.site-header.is-hero .brand--text{
+  color:#fff;
+}
+.site-header.is-hero .brand img{
+  filter:none;
+}
+
+.hero__bottom--links{
+  width:auto;
+  display:flex;
+  grid-template-columns:none;
+  align-items:center;
+  gap:32px;
+}
+.hero-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:32px;
+  min-width:210px;
+  padding:13px 0 11px;
+  color:#fff;
+  border-bottom:1px solid rgba(255,255,255,.72);
+  background:transparent;
+  backdrop-filter:none;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  font-size:11px;
+  font-weight:500;
+  transition:opacity .22s ease, padding-left .22s ease;
+}
+.hero-link:hover{
+  opacity:.72;
+  padding-left:6px;
+}
+.hero-card{
+  display:none !important;
+}
+
+@media (max-width:860px){
+  .hero__bottom--links{
+    width:100%;
+    flex-direction:column;
+    align-items:stretch;
+    gap:12px;
+  }
+  .hero-link{
+    width:100%;
+    min-width:0;
+  }
 }

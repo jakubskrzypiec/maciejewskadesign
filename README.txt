@@ -1,16 +1,11 @@
-Maciejewska Design — wersja v3 bez assets
+Maciejewska Design — v4 HERO FIX
 
-Najważniejsze poprawki względem v2:
-- usunięte jedno hero ze znakiem/logo z rotacji
-- brak custom cursora, wrócił normalny kursor systemowy
-- pełny rework kierunku wizualnego bliżej Monna Design
-- nowa sekcja O mnie z bardziej premium layoutem
-- lżejszy, lepszy quote separator
-- nowa oferta w układzie 50/50
-- nowy proces
-- realizacje jako szeroki auto-scroll strip
-- FAQ na tle
-- poprawiony, spokojniejszy ogólny styl
-- wygenerowany miękki portret bazujący na zdjęciu klientki: portrait-ai.webp
+Zmieniona została wyłącznie sekcja hero:
+- usunięta animacja startowa,
+- usunięty slajd ze znakiem / logo na dole,
+- hero korzysta z trzech kadrów, w tym kadru z siedzącą postacią,
+- usunięty biały blok logo w headerze,
+- kafelki zastąpione krótkimi transparentnymi odnośnikami,
+- reszta strony pozostawiona bez zmian.
 
-Pod GitHub Pages wrzuć cały folder jako pliki główne repo.
+Wszystkie pliki i zdjęcia leżą w jednym folderze, bez folderu assets.

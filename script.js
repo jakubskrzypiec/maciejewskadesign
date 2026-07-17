@@ -2,10 +2,6 @@
 const qs = (s, p=document) => p.querySelector(s);
 const qsa = (s, p=document) => [...p.querySelectorAll(s)];
 
-window.addEventListener('load', () => {
-  setTimeout(() => qs('#intro')?.classList.add('is-hidden'), 900);
-});
-
 const header = qs('#header');
 const syncHeader = () => {
   if (window.scrollY < window.innerHeight * 0.65) header?.classList.add('is-hero');
